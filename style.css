@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+	 width:100%;
+	margin:0 auto; 
+}
+.row{
+display:flex;
+flex-wrap:wrap;
+color:white;
+
+}
+.nav1{
+	display:flex;
+	gap:20px;
+	list-style:none;
+}
+.nav{
+	margin-left:3%;
+	padding-top:10%;
+	
+}
+h1{
+	color:#d5a956;
+	font-size:45px;
+	padding-top:70px;
+	margin-left:-100px;
+}
+.nav1 a{
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+}
+.nav1 a:hover{
+	color:#d5a956;
+}
+body{
+	background-color:#1a1814;
+}
+
+h4{
+	color:white;
+	letter-spacing:10px;
+	position:relative;
+	padding-top:40px;
+	padding-left:30px;
+}
+h4::after{
+	content:"";
+	width:90%;
+	height:1px;
+	background-color:gray;
+	display:inline-block;
+	position:absolute;
+	padding-left:5px;
+	top:43px;
+	left:95%;
+	
+}
+/* . */
+/* .col1{ */
+	/* width:100%; */
+	/* margin-top:40px; */
+/* } */
+/* .col1{ */
+	/* display:flex; */
+	/* flex-wrap:wrap; */
+	
+	
+/* } */
+.img img{
+	width:80px;
+	border-radius:50px;
+	background-color:#726f68;
+	padding:4px;
+	
+}
+.item{
+	/* padding-left:15px; */
+	position:relative;
+	
+	
+}
+/* cite{ */
+	/* padding-left:320px; */
+	/* color:#d5a956; */
+	
+/* } */
+h2 span:hover{
+	color:#d5a956;
+	transition:0.5s;
+}
+p{
+	font-style:italic;
+	font-size:16px;
+	color:#726f68;
+}
+/* span::after{ */
+	/* content:""; */
+	/* width:50%; */
+	/* height:1px ; */
+	
+	/* display:inline-block; */
+	/* position:absolute; */
+	/* border-top:2px dotted white; */
+	/* top:14px; */
+	/* padding:0 15px; */
+	
+	
+/* } */
+h2 span{
+	font-size:15px;
+	
+	font-family: 'Roboto', sans-serif;
+}
+/* h5{ */
+	/* display:flex; */
+	/* align-items:end; */
+	/* justify-content:end; */
+	/* font-size:15px; */
+/* } */
+.flex{
+	display:flex;
+	/* align-items:end; */
+	justify-content:space-evenly;
+}
+.content{
+	display:flex;
+	align-items:top;
+}
+
+.col6{
+	width:50%;
+	padding: 0 15px;
+}
+
+.col12{
+	width:100%;
+	padding: 0 15px;
+}
+
+.border{
+	display:flex;
+	justify-content:space-between;
+	padding:10px 0;
+}
+.item2 h3::before{
+	content:"";
+
+	height:1px;
+	border-top:3px dotted white;
+	position:absolute;
+	padding-left:400px;
+	right:250%;
+	top:20px;
+	
+}
+.item2{
+	position:relative;
+	padding:10px 0;
+	color:#d5a956;
+}
+.item h2{
+	display:inline-block;
+	background-color:#1a1814;
+	position:relative;
+	z-index:999;
+	padding:7px;
+	
+}
